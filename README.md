@@ -13,7 +13,8 @@
 - [Perspectives](#perspectives)
 
 ## Description
-Ce projet développe un système de **tracking GPS** avec données environnementales en utilisant une communication satellitaire via le satellite **EchoStar 21**
+Ce projet consiste en le développement d'un système de **tracking GPS** intégrant des **données environnementales**. La transmission des informations se fait via une **liaison satellitaire** avec **EchoStar 21**.
+Les données sont ensuite traitées et envoyées vers une plateforme pour une visualisation en **temps réels** à l'aide de **dashboard**.
 
 ## Matériel Utilisé
 ![Terminal EchoStar BPS et PlutoSDR avec antenne 2GHz](images/materiels.jpg)
@@ -48,7 +49,7 @@ Le projet a été développé en plusieurs parties :
 	- Implémentation du système de tracking
 	- Collecte des données environnementales
 2. Visualisation du signal :
-	- Utilisation de **GNU Radio** et de la **PlutoSDR** pour l'observation des signaux envoyé par le terminal EchoStar
+	- Utilisation de **GNU Radio** et de la **PlutoSDR** pour l'observation des signaux envoyés par le terminal EchoStar
 
 3. Récupération et traitement des données pour la visualisation sur un dashboard
 	- Utilisation d'un **client MQTT** sur mesure pour souscrire au topic 
