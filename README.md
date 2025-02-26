@@ -82,7 +82,7 @@ flowchart TD
     CHECK_LP -- Oui --> SLEEP[Mise en veille EM2050]
     CHECK_LP -- Non --> CHECK_SEND
     SLEEP --> CHECK_SEND{Temps d'envoi atteint?}
-    CHECK_SEND -- Oui --> SEND[Envoi données]
+    CHECK_SEND -- Oui --> SEND[Lecture du capteur et du GNSS, préparation du payload, envoi données]
     CHECK_SEND -- Non --> UPDATE_GNSS
     SEND --> UPDATE_TIMESTAMP[Réinitialisation compteur d'intervalle]
     UPDATE_TIMESTAMP --> UPDATE_GNSS
