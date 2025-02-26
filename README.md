@@ -21,6 +21,7 @@ Les données sont ensuite traitées et envoyées vers une plateforme pour une vi
 - Terminal EchoStar (fourni par le **LEAT**) avec :
 	* Module radio **EM2050** pour la communication satellite (protocole **LoRaWAN** avec la couche physique **LR-FHSS** (Long Range Frequency Hopping Spread Spectrum))
 	* Capteur BME280 pour les données environnementales
+  * GNSS: Quectel LC29H
 - **PlutoSDR** pour l'analyse du signal
 - Antenne **2GHz** pour la réception
 
